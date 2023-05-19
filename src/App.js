@@ -46,7 +46,12 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{
+        backgroundImage: "linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)",
+        textAlign: "center",
+        border: "5px dotted black",
+        width: "100%"
+      }}>
       <h1>Employee Filter</h1>
       <input
         type="text"
